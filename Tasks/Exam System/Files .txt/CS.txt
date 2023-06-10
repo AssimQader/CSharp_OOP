@@ -1,0 +1,8 @@
+- Q.1: Is C# a pure OOP language?
+- Q.2: Html is a programming language?
+- Q.3: Is backTick a feature that C++ language represents?
+- Q.4: In OOP, a class is a data type and an object is an instance of such type?
+- Q.1: Who invented OOP?   a) Andrea Ferro   b) Adele Goldber   c) Alan Kay   d) Dennis Ritchie
+- Q.2: Which was the first purely OOP language developed?  a) Kotlin   b) SmallTalk   c) Java   d) C++
+- Q.3: Which feature of OOP indicates code reusability?   a) Abstraction   b) Polymorphism   c) Encapsulation   d) Inheritance
+- Q.4: How many types of access specifiers are provided in OOP (C++)?   a) 4   b) 3   c) 2   d) 1
