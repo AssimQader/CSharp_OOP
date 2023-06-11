@@ -1,9 +1,8 @@
-wrong
-wrong
-wrong
-right 
-
-b)
-d)
-a)
-b)
+0
+0
+0
+1 
+b
+d
+a
+b
