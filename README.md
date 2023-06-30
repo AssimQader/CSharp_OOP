@@ -1,2 +1,4 @@
 # CSharp_OOP
-All ITI Tasks and Code Explanation for C# OOP
+All ITI tasks and my own code explanation and solutions for C# OOP course
+
+
