@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeClass</name>
+    </assembly>
+    <members>
+        <member name="T:EmployeeClass.Gender">
+            <summary>
+            Enum "Gender" restrict the data to be M for "Male", F for "Female", 
+            Undefined in case of wrong input.
+            </summary>
+        </member>
+        <member name="T:EmployeeClass.SecurityPrivillages">
+            <summary>
+            SecurityPrivillages Bit Flag Enum: restricts the privillages that employee may has in:
+            <list type="bullet">
+                <item>Guest = 2</item>
+                <item>Developer = 4</item>
+                <item>Secretary = 6</item>
+                <item>DBA = 8</item>
+                <item>Undefined = 0</item>
+            </list>
+            </summary>
+        </member>
+        <member name="T:EmployeeClass.HireDate">
+            <summary>
+            Struct HireDate represents the hiring date in the form: day/month/year
+            </summary>
+        </member>
+        <member name="T:EmployeeClass.Employee">
+            <summary>
+            Class Employee represents the employee and his/her data(fields, properties, methods).
+            </summary>
+        </member>
+        <member name="P:EmployeeClass.Employee.ID">
+            <summary>
+            ID Property to set and get the ID of the Employee.
+            </summary>
+        </member>
+        <member name="P:EmployeeClass.Employee.Salary">
+            <summary>
+            Salary Property to set and get the salary of the Employee.
+            </summary>
+        </member>
+        <member name="P:EmployeeClass.Employee.Name">
+            <summary>
+            Name Property to set and get the Name of the Employee.
+            </summary>
+        </member>
+        <member name="P:EmployeeClass.Employee.EmpGender">
+            <summary>
+            EmpGender Property to set and get the Gender of the Employee.
+            </summary>
+        </member>
+        <member name="P:EmployeeClass.Employee.EmpSP">
+            <summary>
+            EmpSP Property to set and get the Security Privillages of the Employee.
+            </summary>
+        </member>
+        <member name="F:EmployeeClass.Employee.EmpHireDate">
+            <summary>
+            EmpHireDate is a variable represents the hiring date of the Employee.
+            </summary>
+        </member>
+        <member name="M:EmployeeClass.Employee.SetHireDate(System.String)">
+            <summary>
+            Takes the hiring date as string, split it to be presented in a formt of HireDate datatype(day, month, year).
+            </summary>
+            <param name="str">Represents the hiring date in String format: "dd/mm/yyyy"</param>
+        </member>
+        <member name="M:EmployeeClass.Employee.#ctor(System.Int32,System.String,System.Decimal,System.String,System.Char,System.Int32)">
+            <summary>
+            Parametrize ctor used to initialize the fields and properies of the object
+            that will be created from Employee class.
+            </summary>
+            
+            <param name="id">represents the id of the Employee</param>
+            <param name="name">represents the name of the Employee</param>
+            <param name="sal">represents the salary of the Employee</param>
+            <param name="hd">represents the hiring date of the Employee</param>
+            <param name="g">represents the gender of the Employee</param>
+            <param name="sp">represents the security privillage the Employee has</param>
+        </member>
+        <member name="M:EmployeeClass.Employee.ToString">
+            <summary>
+            Print the whole data of any employee.
+            </summary>
+            <returns>Employee's Data in string format</returns>
+        </member>
+        <member name="M:EmployeeClass.Employee.CompareTo(EmployeeClass.Employee)">
+             <summary>
+             Override CompareTo method to use it in sorting employees based on their hire dates.
+             </summary>
+             
+             <param name="emp">emp is an object from Employee class</param>
+             
+             <returns> 
+             <para> 1 if the caller(this) is greater than the passed employee(emp). </para>
+            <para> 0 if the caller(this) equals the passed employee(emp). </para>
+            <para> -1 if the caller(this) is lesser than the passed employee(emp). </para>
+             </returns>
+        </member>
+        <member name="T:EmployeeClass.EmployeeSearch">
+            <summary>
+            Class used to search about specific Employee(s)
+            </summary>
+        </member>
+        <member name="F:EmployeeClass.EmployeeSearch.employees">
+            <summary>
+            List of Employees
+            </summary>
+        </member>
+        <member name="M:EmployeeClass.EmployeeSearch.#ctor">
+            <summary>
+            Parameterless ctor: initialize the list of employees that exists in the class.
+            </summary>
+        </member>
+        <member name="M:EmployeeClass.EmployeeSearch.Add(EmployeeClass.Employee)">
+            <summary>
+            Add Employee to the list
+            </summary>
+            <param name="emp"> an object from <see cref="T:EmployeeClass.Employee"/> class</param>
+        </member>
+        <member name="P:EmployeeClass.EmployeeSearch.Item(System.Int32)">
+            <summary>
+            Indexer to search Employee by ID and return his Name.
+            </summary>
+            <param name="id"> Employee's ID </param>
+            <returns> The employee's name </returns>
+        </member>
+        <member name="P:EmployeeClass.EmployeeSearch.Item(System.String)">
+            <summary>
+            Indexer to search Employee by Name and return list of all employees who have this name.
+            </summary>
+            <param name="name"> Employee's name</param>
+            <returns>List of all employees who have this name</returns>
+        </member>
+        <member name="P:EmployeeClass.EmployeeSearch.Item(EmployeeClass.HireDate)">
+            <summary>
+            Indexer to search by hiring date.
+            </summary>
+            <param name="hireDate"> Employee's hiring date </param>
+            <returns>List of all employees who have this hire date</returns>
+        </member>
+    </members>
+</doc>

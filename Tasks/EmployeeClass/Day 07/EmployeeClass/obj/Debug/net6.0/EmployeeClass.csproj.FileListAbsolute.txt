@@ -1,0 +1,17 @@
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.csproj.AssemblyReference.cache
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.AssemblyInfoInputs.cache
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.AssemblyInfo.cs
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.csproj.CoreCompileInputs.cache
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.exe
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.deps.json
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.runtimeconfig.json
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.dll
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.pdb
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.dll
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\refint\EmployeeClass.dll
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.pdb
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.genruntimeconfig.cache
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\ref\EmployeeClass.dll
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\bin\Debug\net6.0\EmployeeClass.xml
+D:\ITI Courses\C#\Tasks\EmployeeClass\Day 07\EmployeeClass\obj\Debug\net6.0\EmployeeClass.xml
